@@ -1,7 +1,7 @@
 {
   "name": "@loli-works/node-sse-iterator",
   "version": "1.0.0",
-  "description": "A Server Sent Events async generator for node",
+  "description": "A library provides an async generator to read server-sent events for node.",
   "keywords": [
     "Server-Sent Event",
     "SSE",
