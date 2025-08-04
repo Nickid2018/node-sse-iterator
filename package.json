@@ -1,0 +1,40 @@
+{
+  "name": "@loli-works/node-sse-iterator",
+  "version": "1.0.0",
+  "description": "A Server Sent Events async generator for node",
+  "keywords": [
+    "Server-Sent Event",
+    "SSE",
+    "EventSource",
+    "node"
+  ],
+  "author": "Nickid2018",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup ./src",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "prettier": "^3.6.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.5.3",
+    "vitest": "^3.2.4"
+  },
+  "files": [
+    "dist/sse-iterator.js",
+    "dist/sse-iterator.js.map",
+    "dist/sse-iterator.d.ts",
+    "src"
+  ],
+  "types": "dist/sse-iterator.d.ts",
+  "main": "dist/sse-iterator.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nickid2018/node-sse-iterator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nickid2018/node-sse-iterator/issues"
+  },
+  "homepage": "https://github.com/Nickid2018/node-sse-iterator#readme"
+}
